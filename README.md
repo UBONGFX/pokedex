@@ -1,6 +1,8 @@
 # Pokedex
 
-Welcome to the Pokedex project! This is a simple app that allows you to browse through the different Pokémon and learn more about them.
+Welcome to the Pokedex project! 
+This is a simple app that allows you to browse through 
+the different Pokémon and learn more about them.
 
 ## Features
 
