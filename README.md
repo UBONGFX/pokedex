@@ -1,38 +1,45 @@
-# create-svelte
+# Pokedex
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Welcome to the Pokedex project! This is a simple app that allows you to browse through the different Pokémon and learn more about them.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- View a list of all Pokémon and their basic stats (e.g. type, weight, height)
+- Search for a specific Pokémon by name
+- View detailed information about a Pokémon, including its height, weight, and type
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Requirements
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+To run this app, you will need the following:
 
-## Developing
+- Node.js (version 12 or higher)
+- npm (comes with Node.js)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Installation
+To install the app, follow these steps:
 
-```bash
-npm run dev
+1. Clone this repository onto your local machine:
+    ```bash
+    git clone https://github.com/UBONGFX/pokedex.git
+    ```
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+2. Navigate to the pokedex directory and install the dependencies:
+    ```bash
+    cd pokedex
+    npm install
+    ```
 
-## Building
+3. Start the app:
+    ```bash
+    vite
+    ```
 
-To create a production version of your app:
+## Contributing
 
-```bash
-npm run build
-```
+If you want to contribute to this project, please follow these guidelines:
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- Fork this repository and clone it onto your local machine
+- Create a new branch for your changes (e.g. fix-typos)
+- Make your changes and commit them to your branch
+- Push your branch to your fork and submit a pull request
+- Thank you for considering contributing to this project!
